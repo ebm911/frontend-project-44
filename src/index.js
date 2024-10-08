@@ -32,4 +32,4 @@ function runGame(gameLogic) {
   console.log(`Congratulations, ${name}!`);
 }
 
-export default runGame;
+export { runGame };
