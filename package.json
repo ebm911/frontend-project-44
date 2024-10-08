@@ -13,7 +13,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./bin/brain-calc.js"
+    "test": "npx jest"
   },
   "author": "Stas Pletnev",
   "license": "ISC",
