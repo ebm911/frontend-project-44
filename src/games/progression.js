@@ -11,8 +11,9 @@ function generateProgression(length, start, step) {
 function hideElement(progression) {
   const hiddenIndex = Math.floor(Math.random() * progression.length);
   const hiddenValue = progression[hiddenIndex];
-  progression[hiddenIndex] = '..';
-  return { progression, hiddenValue };
+  const newProgression = [...progression]; // Создаем копию массива
+  newProgression[hiddenIndex] = '..';
+  return { progression: newProgression, hiddenValue };
 }
 
 function generateQuestion() {
