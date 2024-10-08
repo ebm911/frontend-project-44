@@ -14,7 +14,7 @@ function runGame(gameLogic) {
   const name = welcomeUser();
   console.log(gameLogic.description);
 
-  for (let i = 0; i < MAX_ROUNDS; i++) {
+  for (let i = 0; i < MAX_ROUNDS; i += 1) {
     const { question, correctAnswer } = gameLogic.generateQuestion();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
@@ -31,4 +31,4 @@ function runGame(gameLogic) {
   console.log(`Congratulations, ${name}!`);
 }
 
-export { runGame };
+export default runGame;
