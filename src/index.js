@@ -1,4 +1,5 @@
 // src/index.js
+
 import readlineSync from 'readline-sync';
 
 const MAX_ROUNDS = 3;
@@ -31,4 +32,4 @@ function runGame(gameLogic) {
   console.log(`Congratulations, ${name}!`);
 }
 
-export default runGame;
+export { runGame };
