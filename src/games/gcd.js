@@ -1,14 +1,14 @@
 // src/games/gcd.js
 
 function gcd(a, b) {
-  let _a = a;
-  let _b = b;
-  while (_b !== 0) {
-    const temp =_b;
-    _b = _a % _b;
-    _a = temp;
+  let one = a;
+  let two = b;
+  while (two !== 0) {
+    const temp =two;
+    two = one % two;
+    one = temp;
   }
-  return _a;
+  return one;
 }
 
 function generateQuestion() {
