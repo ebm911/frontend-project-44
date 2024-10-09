@@ -4,7 +4,7 @@ function gcd(a, b) {
   let one = a;
   let two = b;
   while (two !== 0) {
-    const temp =two;
+    const temp = two;
     two = one % two;
     one = temp;
   }
