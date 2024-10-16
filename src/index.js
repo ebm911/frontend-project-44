@@ -28,6 +28,6 @@ const runGame = (gameLogic) => {
   }
 
   console.log(`Congratulations, ${name}!`);
-}
+};
 
 export default runGame;
