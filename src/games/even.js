@@ -1,5 +1,3 @@
-// src/games/even.js
-
 function isEven(number) {
   return number % 2 === 0;
 }

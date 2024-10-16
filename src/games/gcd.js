@@ -1,5 +1,3 @@
-// src/games/gcd.js
-
 function gcd(a, b) {
   let one = a;
   let two = b;

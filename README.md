@@ -29,22 +29,23 @@
   `Correct!`  
   `Congratulations, Stas!`  
 
+## Минимальные требования
+
+Необходимо наличие установленного node.js, а вместе с ним менеджера пакетов (npm) для установки игр из каталога. Наличие библиотеки readline-sync.
+
 ## Установка
 
 `$ sudo npm link`
 
-## Brain Even
+## Запуск игр
 
-<a href="https://asciinema.org/a/I7AmBhqNfy5DWDamJoNtWaFBp" target="_blank"><img src="https://asciinema.org/a/I7AmBhqNfy5DWDamJoNtWaFBp.svg" /></a>
+Что бы запустить любую из игр в терминал следует написать название той игры которая вас интересует.
 
-## Brain Calc
-<a href="https://asciinema.org/a/I7AmBhqNfy5DWDamJoNtWaFBp" target="_blank"><img src="https://asciinema.org/a/I7AmBhqNfy5DWDamJoNtWaFBp.svg" /></a>
+`brain-even`
+`brain-calc`
+`brain-gcd`
+`brain-prime`
+`brain-progression`
 
-## Brain Gcd
-<a href="https://asciinema.org/a/WGXYsqNVjJsBm8qXaPJqW0bVh" target="_blank"><img src="https://asciinema.org/a/WGXYsqNVjJsBm8qXaPJqW0bVh.svg" /></a>
-
-## Brain Prog
-<a href="https://asciinema.org/a/8rfK0CfrwxSL8Nc4LtUU56E3V" target="_blank"><img src="https://asciinema.org/a/8rfK0CfrwxSL8Nc4LtUU56E3V.svg" /></a> 
-
-## Brain Prime
-<a href="https://asciinema.org/a/Mxj6Iu80rpagrhht2pUwWAzLl" target="_blank"><img src="https://asciinema.org/a/Mxj6Iu80rpagrhht2pUwWAzLl.svg" /></a> 
+## Пример запуска и самих игр
+[![asciicast](https://asciinema.org/a/CLW7H6hjJzG0RxbM8slYS4J0p.svg)](https://asciinema.org/a/CLW7H6hjJzG0RxbM8slYS4J0p)

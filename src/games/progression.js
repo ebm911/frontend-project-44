@@ -1,5 +1,3 @@
-// src/games/progression.js
-
 function generateProgression(length, start, step) {
   const progression = [];
   for (let i = 0; i < length; i += 1) {

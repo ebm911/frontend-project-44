@@ -1,5 +1,3 @@
-// src/index.js
-
 import readlineSync from 'readline-sync';
 
 const MAX_ROUNDS = 3;
@@ -11,7 +9,7 @@ function welcomeUser() {
   return name;
 }
 
-function runGame(gameLogic) {
+const runGame = (gameLogic) => {
   const name = welcomeUser();
   console.log(gameLogic.description);
 
