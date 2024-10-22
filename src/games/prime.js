@@ -1,3 +1,5 @@
+import runGame from '../index.js';
+
 function isPrime(num) {
   if (num <= 1) return false;
   if (num <= 3) return true;
@@ -20,4 +22,9 @@ function generateQuestion() {
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-export { generateQuestion, description };
+function runPrime() {
+  const gameLogic = { generateQuestion, description };
+  runGame(gameLogic);
+}
+
+export default runPrime;

@@ -1,3 +1,5 @@
+import runGame from '../index.js';
+
 function isEven(number) {
   return number % 2 === 0;
 }
@@ -11,4 +13,9 @@ function generateQuestion() {
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-export { generateQuestion, description };
+function runEven() {
+  const gameLogic = { generateQuestion, description };
+  runGame(gameLogic);
+}
+
+export default runEven;

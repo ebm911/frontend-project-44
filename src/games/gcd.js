@@ -1,3 +1,5 @@
+import runGame from '../index.js';
+
 function gcd(a, b) {
   let one = a;
   let two = b;
@@ -19,4 +21,9 @@ function generateQuestion() {
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-export { generateQuestion, description };
+function runGcd() {
+  const gameLogic = { generateQuestion, description };
+  runGame(gameLogic);
+}
+
+export default runGcd;

@@ -9,7 +9,7 @@ function welcomeUser() {
   return name;
 }
 
-const runGame = (gameLogic) => {
+function runGame(gameLogic) {
   const name = welcomeUser();
   console.log(gameLogic.description);
 
@@ -18,16 +18,16 @@ const runGame = (gameLogic) => {
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (userAnswer === correctAnswer) {
-      console.log('Correct!');
-    } else {
+    if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
       return;
     }
+
+    console.log('Correct!');
   }
 
   console.log(`Congratulations, ${name}!`);
-};
+}
 
 export default runGame;

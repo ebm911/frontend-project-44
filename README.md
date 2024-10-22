@@ -31,11 +31,15 @@
 
 ## Минимальные требования
 
-Необходимо наличие установленного node.js, а вместе с ним менеджера пакетов (npm) для установки игр из каталога. Наличие библиотеки readline-sync.
+`node version: 20.10.0`
+`npm version: 10.9.0`
 
 ## Установка
 
-`$ sudo npm link`
+`git clone https://github.com/ebm911/frontend-project-44`
+`cd frontend-project-44`
+`make install`
+`npm link`
 
 ## Запуск игр
 

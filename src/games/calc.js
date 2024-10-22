@@ -1,3 +1,5 @@
+import runGame from '../index.js';
+
 function generateQuestion() {
   const num1 = Math.floor(Math.random() * 10) + 1;
   const num2 = Math.floor(Math.random() * 10) + 1;
@@ -29,4 +31,9 @@ function generateQuestion() {
 
 const description = 'What is the result of the expression?';
 
-export { generateQuestion, description };
+function runCalc() {
+  const gameLogic = { generateQuestion, description };
+  runGame(gameLogic);
+}
+
+export default runCalc;
